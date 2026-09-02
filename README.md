@@ -38,8 +38,13 @@ daofashuqi-shi/
 ├── SKILL.md                    主脑：框架 + 流程 + 铁律 + 输出格式
 ├── references/                 五层深挖、人群视角弹药、评分/实验/报告模板、讲师备课
 ├── assets/self-check-sheet.md  可选无打分自问清单
-└── evals/trigger-eval.md       触发测试用例
+├── evals/trigger-eval.md       触发测试用例
+└── samples/                    四类典型客群的实测样例（学员用前先看效果）
 ```
+
+## 实测样例
+
+四份真实场景的"用户输入 + skill 完整回复"，覆盖 OPC / 企业小老板 / 个体户 / 家属视角。见 [`samples/`](./samples/)。
 
 ## 许可
 
