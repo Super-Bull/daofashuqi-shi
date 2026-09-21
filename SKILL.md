@@ -11,7 +11,8 @@ description: |
   当用户是想加盟某个品牌或做区域代理，想看这个加盟值不值时使用；
   当用户说「帮我看看这个项目（指生意，不是代码工程）」「我的想法有什么问题」「这能赚钱吗」「为什么一直做不起来」「帮我挑挑毛病」「帮我诊断一下」「这个模式成立吗」时使用；
   当用户讲了一堆业务现状但没说清要干什么、需要有人帮他理出主要矛盾时使用；
-  **老板不会说「我的商业逻辑有问题」，他们只会说症状**：当用户说「卖不动」「没人来」「不赚钱」「一直没起色」「客户留不住」「投进去的钱打水漂」时同样触发——症状本身就是待诊断的漏洞信号，不要因为听起来像运营问题就放过；
+  **老板不会说「我的商业逻辑有问题」，他们只会说症状**：当用户说「卖不动」「没人来」「不赚钱」「一直没起色」「客户留不住」「投进去的钱打水漂」时同样触发——  症状本身就是待诊断的漏洞信号，不要因为听起来像运营问题就放过；
+  当用户是传统制造业、美业、保险、律师、医美、高校老师、微商、名医、公务员、科研人员、证券银行金融等专业/高净值人群，想看自己这行怎么用 AI、要不要转型、卡在哪时使用；
   也适用于培训课或沙龙现场：学员听完分享、装好 skill 后，直接在对话框里说一句自己的生意就能跑分析——**不依赖任何表格、不需要先打分**。
   讲师备课场景同样使用：用户说「我要去讲这个」「帮我出分享稿/沙龙主题/课程大纲」「把这个主题做成课」时，读 references/teaching-notes.md。
 license: 供学员与沙龙听众自用
@@ -190,6 +191,18 @@ OPC 专项：`references/opc-playbook.md`（含内容创作者子章节）
 传统实体门店老板：`references/perspective-store.md`
 制造业代工转品牌/出海：`references/perspective-manufacturing.md`
 加盟/代理创业者：`references/perspective-franchisee.md`
+传统制造业观望型（知道 AI 但不会落地/要不要转型）：`references/perspective-manufacturing-observer.md`
+美业女性老板：`references/perspective-beauty.md`
+保险业：`references/perspective-insurance.md`
+律师：`references/perspective-lawyer.md`
+医美：`references/perspective-medical-aesthetics.md`
+高校老师：`references/perspective-university-teacher.md`
+微商/社交电商：`references/perspective-microbusiness.md`
+名医/知名医生：`references/perspective-doctor.md`
+公务员/体制内：`references/perspective-civil-servant.md`
+科研人员：`references/perspective-researcher.md`
+证券银行金融：`references/perspective-finance.md`
+行业困局/大众困局综合兜底（匹配不到具体人群时）：`references/industry-predicaments.md`
 讲师备课：`references/teaching-notes.md`
 
 ## 加载规则（渐进式披露，别一次全读）
@@ -200,12 +213,15 @@ OPC 专项：`references/opc-playbook.md`（含内容创作者子章节）
 - **用户是自己开实体店/餐馆/零售店的老板** → 加读 `references/perspective-store.md`（重成本镜像 OPC、会员不沉淀/平台依赖死法）
 - **用户是代工厂/贴牌厂老板想做自有品牌或出海** → 加读 `references/perspective-manufacturing.md`（微笑曲线势、代工思维陷阱、库存压死现金流）
 - **用户是想加盟品牌或做区域代理的人** → 加读 `references/perspective-franchisee.md`（快招收割势、单店模型核验、两套账分裂）
+- **用户是传统制造业观望型（知道 AI 但不懂怎么落地、不知道要不要转型）** → 加读 `references/perspective-manufacturing-observer.md`（行业困局三层卡点：道没想清/法没算账/术没试过）
+- **用户是美业/医美/保险/律师/高校老师/微商/名医/公务员/科研/证券银行金融等专业高净值人群** → 加读对应 `references/perspective-*.md`（每群体一份专属弹药：五层长相+行业困局+大众困局+势+金句）
+- **识别不到具体 persona（兜底，保证随便一个人装上都解得了惑）** → 加读 `references/industry-predicaments.md`（行业困局三层卡点 + 大众困局误区集 + 要不要转型判断框架）
 - **阶段 2 深挖**：只读最薄弱层的 `references/layer-XX.md`
 - **阶段 3 出报告**：读 `references/experiments.md` + `references/report-template.md`
 - **用户明确要纸版自问清单（可选）**：给 `assets/self-check-sheet.md`。（注意：这是可选物料，不是用 skill 的必经步骤——听众不填任何表、不打分，直接对话就能跑。）
 - **用户要讲课 / 出分享稿 / 做课程大纲** → 读 `references/teaching-notes.md`，走那套流程，**不走拆解流程**
 
-**注意人群视角文件的定位**：OPC 专项、企业内 AI 推动者、实体门店、代工转品牌、加盟代理这 5 个 `perspective-*.md` / `opc-playbook.md` 是**讲师和拆解助手的教案库**，用来在识别到对应客群时内部加读、拆得更准。它们**不是学员直接面对的产品**。学员的直接入口是装好 skill 后在对话框里描述自己的生意，纸版清单（若发）只是可选辅助、不分视角；没装 skill 的 AI 也读不到这些文件。别在面向学员的物料里引用它们。
+**注意人群视角文件的定位**：OPC 专项、企业内 AI 推动者、实体门店、代工转品牌、加盟代理，以及新增的 11 类高净值人群（传统制造业观望型/美业/保险/律师/医美/高校老师/微商/名医/公务员/科研/金融）和跨行业兜底 `industry-predicaments.md`，共 17 个 `perspective-*.md` / `opc-playbook.md` 是**讲师和拆解助手的教案库**，用来在识别到对应客群时内部加读、拆得更准。它们**不是学员直接面对的产品**。学员的直接入口是装好 skill 后在对话框里描述自己的生意，纸版清单（若发）只是可选辅助、不分视角；没装 skill 的 AI 也读不到这些文件。别在面向学员的物料里引用它们。
 
 ---
 

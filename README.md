@@ -10,7 +10,10 @@
 - OPC / 一人公司 / 超级个体 / 自由职业者
 - 企业内 AI 转型推动者、数字化负责人
 - 实体门店、代工厂转品牌、加盟 / 区域代理创业者
+- **专业 / 高净值人群（已沉淀专属弹药）**：传统制造业观望型、美业女性老板、保险、律师、医美、高校老师、微商、名医、公务员、科研人员、证券银行金融
 - 讲师：备课、出分享稿、做沙龙主题
+
+> **随便一个人装上都解得了惑**：识别不到具体人群时，skill 自动加载「行业困局 / 大众困局」综合兜底库，覆盖"知道 AI 但不会落地、不知道要不要转型"的观望型老板，以及"AI 是高科技的事 / 会被取代 / 上系统=转型"等大众误区。
 
 ## 怎么用
 
@@ -36,7 +39,12 @@
 ```
 daofashuqi-shi/
 ├── SKILL.md                    主脑：框架 + 流程 + 铁律 + 输出格式
-├── references/                 五层深挖、人群视角弹药、评分/实验/报告模板、讲师备课
+├── references/
+│   ├── layer-dao/fa/shu/qi/shi.md   五层深挖
+│   ├── opc-playbook.md              OPC 专项弹药
+│   ├── perspective-*.md             16 份人群视角弹药（企业内AI/门店/代工/加盟 + 11类高净值人群）
+│   ├── industry-predicaments.md     行业困局+大众困局综合兜底（catch-all）
+│   ├── scoring / experiments / report-template / teaching-notes
 ├── assets/self-check-sheet.md  可选无打分自问清单
 ├── evals/trigger-eval.md       触发测试用例
 └── samples/                    四类典型客群的实测样例（学员用前先看效果）
