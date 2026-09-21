@@ -202,6 +202,14 @@ OPC 专项：`references/opc-playbook.md`（含内容创作者子章节）
 公务员/体制内：`references/perspective-civil-servant.md`
 科研人员：`references/perspective-researcher.md`
 证券银行金融：`references/perspective-finance.md`
+非遗大师/手艺人：`references/perspective-ichmaster.md`
+艺术家（画家/雕塑/当代艺术）：`references/perspective-artist.md`
+设计师（UI/平面/工业/室内）：`references/perspective-designer.md`
+摄影师（婚庆/写真/商业/旅拍）：`references/perspective-photographer.md`
+写作者/自媒体人：`references/perspective-writer.md`
+旅行社/文旅从业者（线路/地接/研学）：`references/perspective-travel.md`
+民宿/景区主理人：`references/perspective-homestay.md`
+茶空间/新中式主理人：`references/perspective-teahouse.md`
 行业困局/大众困局综合兜底（匹配不到具体人群时）：`references/industry-predicaments.md`
 讲师备课：`references/teaching-notes.md`
 
@@ -214,14 +222,14 @@ OPC 专项：`references/opc-playbook.md`（含内容创作者子章节）
 - **用户是代工厂/贴牌厂老板想做自有品牌或出海** → 加读 `references/perspective-manufacturing.md`（微笑曲线势、代工思维陷阱、库存压死现金流）
 - **用户是想加盟品牌或做区域代理的人** → 加读 `references/perspective-franchisee.md`（快招收割势、单店模型核验、两套账分裂）
 - **用户是传统制造业观望型（知道 AI 但不懂怎么落地、不知道要不要转型）** → 加读 `references/perspective-manufacturing-observer.md`（行业困局三层卡点：道没想清/法没算账/术没试过）
-- **用户是美业/医美/保险/律师/高校老师/微商/名医/公务员/科研/证券银行金融等专业高净值人群** → 加读对应 `references/perspective-*.md`（每群体一份专属弹药：五层长相+行业困局+大众困局+势+金句）
+- **用户是美业/医美/保险/律师/高校老师/微商/名医/公务员/科研/证券银行金融/非遗大师/艺术家/设计师/摄影师/写作者/旅行社文旅/民宿景区/茶空间等专业或创作者型高净值人群** → 加读对应 `references/perspective-*.md`（每群体一份专属弹药：五层长相+行业困局+大众困局+势+金句）
 - **识别不到具体 persona（兜底，保证随便一个人装上都解得了惑）** → 加读 `references/industry-predicaments.md`（行业困局三层卡点 + 大众困局误区集 + 要不要转型判断框架）
 - **阶段 2 深挖**：只读最薄弱层的 `references/layer-XX.md`
 - **阶段 3 出报告**：读 `references/experiments.md` + `references/report-template.md`
 - **用户明确要纸版自问清单（可选）**：给 `assets/self-check-sheet.md`。（注意：这是可选物料，不是用 skill 的必经步骤——听众不填任何表、不打分，直接对话就能跑。）
 - **用户要讲课 / 出分享稿 / 做课程大纲** → 读 `references/teaching-notes.md`，走那套流程，**不走拆解流程**
 
-**注意人群视角文件的定位**：OPC 专项、企业内 AI 推动者、实体门店、代工转品牌、加盟代理，以及新增的 11 类高净值人群（传统制造业观望型/美业/保险/律师/医美/高校老师/微商/名医/公务员/科研/金融）和跨行业兜底 `industry-predicaments.md`，共 17 个 `perspective-*.md` / `opc-playbook.md` 是**讲师和拆解助手的教案库**，用来在识别到对应客群时内部加读、拆得更准。它们**不是学员直接面对的产品**。学员的直接入口是装好 skill 后在对话框里描述自己的生意，纸版清单（若发）只是可选辅助、不分视角；没装 skill 的 AI 也读不到这些文件。别在面向学员的物料里引用它们。
+**注意人群视角文件的定位**：OPC 专项、企业内 AI 推动者、实体门店、代工转品牌、加盟代理，以及新增的 19 类高净值/创作者/文旅人群（传统制造业观望型/美业/保险/律师/医美/高校老师/微商/名医/公务员/科研/金融/非遗大师/艺术家/设计师/摄影师/写作者/旅行社文旅/民宿景区/茶空间）和跨行业兜底 `industry-predicaments.md`，共 25 个 `perspective-*.md` / `opc-playbook.md` 是**讲师和拆解助手的教案库**，用来在识别到对应客群时内部加读、拆得更准。它们**不是学员直接面对的产品**。学员的直接入口是装好 skill 后在对话框里描述自己的生意，纸版清单（若发）只是可选辅助、不分视角；没装 skill 的 AI 也读不到这些文件。别在面向学员的物料里引用它们。
 
 ---
 
