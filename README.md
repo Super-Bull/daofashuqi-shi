@@ -21,7 +21,7 @@
 
 1. 把这个 `daofashuqi-shi` 目录作为 skill 装进你的 Agent（WorkBuddy 等支持 skill 的客户端）。
 2. 在对话框里直接说一句自己的生意，例如：「我在苏州开奶茶店一年，一天卖 20 杯，不赚钱」。
-3. skill 会用「道法术器势」拆一遍，末尾给薄弱点总结 + 可落地的破局行动指令。
+3. skill 会用「道法术器势」拆一遍，末尾给总判定 + 薄弱点总结 + 可落地的破局行动指令。
 4. 不依赖任何表格，不需要先打分。
 
 ## 框架速览
@@ -36,25 +36,44 @@
 
 五层是上下关系，不是并列。分析顺序永远 道 → 法 → 术 → 器 → 势；「势」是独立维度，不接在「器」之后。
 
+## 全栈自测增强模块（横向补全）
+
+纵向五层 + 25 份人群弹药解决"拆得透"。下面七个模块解决"连得起来、测得准、跟得上"——补全全栈自测的短板：
+
+- 层间联动 / 拖累诊断 → `references/layer-linkage.md`（哪层在拖死哪层，破局只打源头）
+- 阶段论 → `references/stage-model.md`（0→1 / 1→10 / 10→100，先判阶段再定破局聚焦点）
+- 总判定机制 → `references/verdict.md`（拆完五层推"能跑 / 不能跑 / 先补 X"）
+- 生意模式 × 层权重 → `references/business-models.md`（卖货 / 服务 / 课 / 加盟 / 软件 / 文旅，瓶颈层不同）
+- 死亡信号红线 → `references/red-flags.md`（各层致命红线一张表，自查距死多远）
+- 复盘闭环 → `references/review-loop.md`（测完 7 天 / 30 天怎么跟踪）
+- AI 成败案例库（按道法术器势归类）→ `references/ai-cases.md`（真实 AI 翻车 = 五层里某层塌了，给学员对照）
+
 ## 目录结构
 
 ```
 daofashuqi-shi/
 ├── SKILL.md                    主脑：框架 + 流程 + 铁律 + 输出格式
 ├── references/
-│   ├── layer-dao/fa/shu/qi/shi.md   五层深挖
-│   ├── opc-playbook.md              OPC 专项弹药
-│   ├── perspective-*.md             24 份人群视角弹药（企业内AI/门店/代工/加盟 + 19类高净值/创作者/文旅人群 + 制造业观望型）
-│   ├── industry-predicaments.md     行业困局+大众困局综合兜底（catch-all）
+│   ├── layer-dao/fa/shu/qi/shi.md        五层深挖
+│   ├── layer-linkage / stage-model / verdict / business-models / red-flags / review-loop / ai-cases.md   全栈增强模块（7 个）
+│   ├── opc-playbook.md                     OPC 专项弹药
+│   ├── perspective-*.md                    23 份人群视角弹药（企业内AI/门店/代工/加盟 + 19类高净值/创作者/文旅人群 + 制造业观望型）
+│   ├── industry-predicaments.md            行业困局+大众困局综合兜底（catch-all）
 │   ├── scoring / experiments / report-template / teaching-notes
-├── assets/self-check-sheet.md  可选无打分自问清单
-├── evals/trigger-eval.md       触发测试用例
-└── samples/                    四类典型客群的实测样例（学员用前先看效果）
+├── assets/self-check-sheet.md   可选无打分自问清单
+├── evals/trigger-eval.md        触发测试用例
+└── samples/                     四类典型客群的实测样例（学员用前先看效果）
 ```
+
+共 25 份人群视角弹药（23 份 `perspective-*.md` + `opc-playbook.md` + `industry-predicaments.md`）。
 
 ## 实测样例
 
 四份真实场景的"用户输入 + skill 完整回复"，覆盖 OPC / 企业小老板 / 个体户 / 家属视角。见 [`samples/`](./samples/)。
+
+## 框架出处
+
+本 skill 的「道法术器势」五层商业诊断框架，由姑苏阿伟在 2026 年 9 月 13 日长三角数字游民大会 OPC 分会场《OPC 生存指南——商业模式大于一切》演讲中开源，原为帮助零基础老板 / 个体户 / 副业者看清自己生意的轻量自检工具。
 
 ## 许可
 
