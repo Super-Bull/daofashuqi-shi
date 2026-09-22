@@ -13,6 +13,7 @@
 - **专业 / 高净值人群（已沉淀专属弹药）**：传统制造业观望型、美业女性老板、保险、律师、医美、高校老师、微商、名医、公务员、科研人员、证券银行金融
 - **创作者 / 匠人型**：非遗大师、艺术家、设计师、摄影师、写作者 / 自媒体人
 - **文旅 / 体验型**：旅行社 / 文旅从业者、民宿 / 景区主理人、茶空间 / 新中式主理人
+- **老板型（高频决策人群专属弹药）**：企业主本人（操心整盘）、品牌主理人、电商直播、餐饮老板、教培校长、广告营销公司老板、房产经纪、咨询猎头公司老板
 - 讲师：备课、出分享稿、做沙龙主题
 
 > **随便一个人装上都解得了惑**：识别不到具体人群时，skill 自动加载「行业困局 / 大众困局」综合兜底库，覆盖"知道 AI 但不会落地、不知道要不要转型"的观望型老板，以及"AI 是高科技的事 / 会被取代 / 上系统=转型"等大众误区。
@@ -38,7 +39,7 @@
 
 ## 全栈自测增强模块（横向补全）
 
-纵向五层 + 25 份人群弹药解决"拆得透"。下面七个模块解决"连得起来、测得准、跟得上"——补全全栈自测的短板：
+纵向五层 + 33 份人群弹药解决"拆得透"。下面七个模块解决"连得起来、测得准、跟得上"——补全全栈自测的短板：
 
 - 层间联动 / 拖累诊断 → `references/layer-linkage.md`（哪层在拖死哪层，破局只打源头）
 - 阶段论 → `references/stage-model.md`（0→1 / 1→10 / 10→100，先判阶段再定破局聚焦点）
@@ -57,19 +58,21 @@ daofashuqi-shi/
 │   ├── layer-dao/fa/shu/qi/shi.md        五层深挖
 │   ├── layer-linkage / stage-model / verdict / business-models / red-flags / review-loop / ai-cases.md   全栈增强模块（7 个）
 │   ├── opc-playbook.md                     OPC 专项弹药
-│   ├── perspective-*.md                    23 份人群视角弹药（企业内AI/门店/代工/加盟 + 19类高净值/创作者/文旅人群 + 制造业观望型）
+│   ├── perspective-*.md                    31 份人群视角弹药（企业内AI/门店/代工/加盟 + 27类高净值/创作者/文旅/老板型人群 + 制造业观望型）
 │   ├── industry-predicaments.md            行业困局+大众困局综合兜底（catch-all）
+│   ├── faq.md                              用户常见问题（怎么用/靠不靠谱/和 SWOT 区别/与 BIC 分工）
 │   ├── scoring / experiments / report-template / teaching-notes
 ├── assets/self-check-sheet.md   可选无打分自问清单
-├── evals/trigger-eval.md        触发测试用例
-└── samples/                     四类典型客群的实测样例（学员用前先看效果）
+├── evals/trigger-eval.md        触发测试用例（单 skill + 竞争路由盲测）
+├── evals/output-eval.md         输出质量评估集（顺序锁死/禁术语/必给总判定/破局带判定/不编数据）
+└── samples/                     八类典型客群的实测样例（正例 + 边界：倾诉/知识问答/多生意/超范围转诊）
 ```
 
-共 25 份人群视角弹药（23 份 `perspective-*.md` + `opc-playbook.md` + `industry-predicaments.md`）。
+共 33 份人群视角弹药（31 份 `perspective-*.md` + `opc-playbook.md` + `industry-predicaments.md`）。
 
 ## 实测样例
 
-四份真实场景的"用户输入 + skill 完整回复"，覆盖 OPC / 企业小老板 / 个体户 / 家属视角。见 [`samples/`](./samples/)。
+八份真实场景的"用户输入 + skill 完整回复"，覆盖 OPC / 企业小老板 / 个体户 / 家属视角，外加四个边界场景（倾诉型、纯知识问答、多生意并行、超范围转诊）。见 [`samples/`](./samples/)。
 
 ## 框架出处
 
