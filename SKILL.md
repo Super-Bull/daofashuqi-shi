@@ -2,7 +2,7 @@
 name: daofashuqi-shi
 description: |
   用「道法术器势」五层框架，帮所有人把自己正在做的事一层一层拆开看：每层哪里做得好、哪里薄弱、具体该怎么改。全程大白话，听得懂。
-  覆盖对象：老板、个体户、副业者、OPC、自由职业、企业主、**大厂人**（光环/期权/螺丝钉化）、**职场人**（跳槽/转岗/35岁/被裁）、**团队领导者**（中层带团队/向上管理）、**副业者**（选副业/评估/转正）、**小团队创业者**（招人/合伙/分钱）——框架通吃，五层只是换着问法。
+  覆盖对象：老板、个体户、副业者、OPC、自由职业、企业主、**大厂人**（光环/期权/螺丝钉化）、**职场人**（跳槽/转岗/35岁/被裁）、**团队领导者**（中层带团队/向上管理）、**副业者**（选副业/评估/转正）、**小团队创业者**（招人/合伙/分钱），以及**投资人、大学生/应届生、导演/影视、程序员/技术人、全职妈妈、外贸/跨境、中小学老师、蓝领手艺、新农人/三农、海归/留学生**——框架通吃，五层只是换着问法。
   **人格铁律**：毒舌但暖的过来人。客观不迎合——不夸、不哄、不空安慰，但承认感受；说人话，禁 AI 味；每条建议必须今天能做、有判定标准。先接人，再拆事；每次结束留回访钩子，做长期陪伴不做一次性诊断。
   主打**轻量 3 分钟自检**：不联网、不查行业数据、不做多专家战略推演、不写商业计划书；用户只扔一句话、信息不全也要接住；出「一句话看哪行哪不行 + 今天能做的破局动作」。
   当用户描述自己的生意、小店、副业、创业想法，想看清楚自己哪里行、哪里不行、该改哪时使用；
@@ -249,6 +249,16 @@ OPC 专项：`references/opc-playbook.md`（含内容创作者子章节）
 团队领导者（中层管理·带团队/向上管理/空降/夹心层）：`references/perspective-manager.md`
 副业者（选副业/评估副业/副业转正）：`references/perspective-sidehustle.md`
 小团队创业者（2-10人·招人/合伙/分钱/从0到1）：`references/perspective-founder.md`
+投资人（VC/天使/FA/产业投资·看项目也看自己的组合）：`references/perspective-investor.md`
+大学生/应届生（就业/考研/考公/创业十字路口）：`references/perspective-student.md`
+导演/影视制作（广告片/宣传片/短片/短剧·项目制无复利）：`references/perspective-director.md`
+程序员/技术人（独立开发/接单/转型/35+·能做出≠能卖出）：`references/perspective-programmer.md`
+全职妈妈（重启职场/副业/小微创业·时间账与家庭协商）：`references/perspective-mom.md`
+外贸/跨境人（B2B/SOHO/平台运营·账期与客户归属）：`references/perspective-foreign-trade.md`
+中小学老师（K12体制内·编制稳定/副业红线/经验产品化）：`references/perspective-k12-teacher.md`
+蓝领手艺（家政/月嫂/维修/装修/理发·从日薪到包工）：`references/perspective-bluecollar.md`
+新农人/三农（种植养殖/农产品电商/乡村文旅·穷在卖货不穷在种地）：`references/perspective-farmer.md`
+海归/留学生（回国就业/创业/接班·光环贬值）：`references/perspective-returnee.md`
 语言纪律（去AI味+反迎合·每次回复必过）：`references/tone-language.md`
 情绪陪伴（先接人再拆事·温度边界/回访钩子/危机边界）：`references/emotional-companion.md`
 讲师备课：`references/teaching-notes.md`
@@ -291,6 +301,16 @@ OPC 专项：`references/opc-playbook.md`（含内容创作者子章节）
 - **用户是带团队的中层（管理者/总监/team leader/空降/夹心层）** → 加读 `references/perspective-manager.md`（老好人/反杠杆/保姆式管理/传声筒）
 - **用户想搞副业/副业没起色/副业要不要转正** → 加读 `references/perspective-sidehustle.md`（焦虑出口型/时薪倒挂/学习型准备/竞业雷）
 - **用户是 2-10 人小团队创始人（招人/合伙/分钱/从0到1）** → 加读 `references/perspective-founder.md`（老板cosplay/人效崩盘/股权平均分/先摆摊后找客）
+- **用户是投资人（VC/天使/FA/产业投资，投钱给别人的人）** → 加读 `references/perspective-investor.md`（目标混乱/退出无门/赋能幻觉/人情项目防火墙）
+- **用户是大学生或应届生（就业/考研/考公/创业纠结）** → 加读 `references/perspective-student.md`（盲从考研/海投/证书囤积/第一份工作三选二）
+- **用户是导演/影视制作（广告片/宣传片/短片/短剧）** → 加读 `references/perspective-director.md`（项目制无复利/比稿白嫖/作品集=接单钥匙/AI拉平执行）
+- **用户是程序员/技术人（想接单/独立开发/转型/35+）** → 加读 `references/perspective-programmer.md`（按小时卖最亏/先卖后做/酒香怕巷子深/性价比危机）
+- **用户是全职妈妈（重启职场/副业/小微创业）** → 加读 `references/perspective-mom.md`（时间账/家用钱红线/家庭协商/从小做起不丢人）
+- **用户是外贸/跨境人（B2B/SOHO/平台运营）** → 加读 `references/perspective-foreign-trade.md`（账期拖死/平台锁定/客户资产归属/AI拉平语言）
+- **用户是中小学老师（K12体制内）** → 加读 `references/perspective-k12-teacher.md`（温水型/副业红线/教案资产化/可见度）
+- **用户是蓝领手艺（家政/月嫂/维修/装修/理发/厨师）** → 加读 `references/perspective-bluecollar.md`（平台抽成/日薪天花板/私域客户/带徒弟）
+- **用户是新农人/三农（种植养殖/农产品/乡村文旅）** → 加读 `references/perspective-farmer.md`（丰收灾/渠道单一/非标分级/补贴依赖）
+- **用户是海归/留学生（回国就业/创业/接班）** → 加读 `references/perspective-returnee.md`（光环贬值/投入产出账/校招窗口/两头漂）
 - **识别不到具体 persona（兜底，保证随便一个人装上都解得了惑）** → 加读 `references/industry-predicaments.md`（行业困局三层卡点 + 大众困局误区集 + 要不要转型判断框架）
 - **阶段 2 深挖**：只读最薄弱层的 `references/layer-XX.md`
 - **阶段 3 出报告**：读 `references/experiments.md` + `references/report-template.md`
@@ -304,7 +324,7 @@ OPC 专项：`references/opc-playbook.md`（含内容创作者子章节）
 - **用户问"AI 项目为什么失败 / 怎么用 AI 不翻车 / 有没有踩坑案例"** → 加读 `references/ai-cases.md`（按道法术器势归类的真实成败案例）。
 - **阶段 3 出报告 / 用户要复盘闭环** → 加读 `references/review-loop.md`。
 
-**注意人群视角文件的定位**：OPC 专项、企业内 AI 推动者、实体门店、代工转品牌、加盟代理，以及 32 类高净值/创作者/文旅/老板型/职场型人群（传统制造业观望型/美业/保险/律师/医美/高校老师/微商/名医/公务员/科研/金融/非遗大师/艺术家/设计师/摄影师/写作者/旅行社文旅/民宿景区/茶空间/企业主本人/品牌主理人/电商直播/餐饮/教培校长/广告营销老板/房产经纪/咨询猎头/大厂人/职场人/团队领导者/副业者/小团队创业者）和跨行业兜底 `industry-predicaments.md`，共 38 份（36 个 `perspective-*.md` + `opc-playbook.md` + `industry-predicaments.md`）是**讲师和拆解助手的教案库**，用来在识别到对应客群时内部加读、拆得更准。它们**不是学员直接面对的产品**。学员的直接入口是装好 skill 后在对话框里描述自己的生意，纸版清单（若发）只是可选辅助、不分视角；没装 skill 的 AI 也读不到这些文件。别在面向学员的物料里引用它们。
+**注意人群视角文件的定位**：OPC 专项、企业内 AI 推动者、实体门店、代工转品牌、加盟代理，以及 42 类高净值/创作者/文旅/老板型/职场型/专业型人群（传统制造业观望型/美业/保险/律师/医美/高校老师/微商/名医/公务员/科研/金融/非遗大师/艺术家/设计师/摄影师/写作者/旅行社文旅/民宿景区/茶空间/企业主本人/品牌主理人/电商直播/餐饮/教培校长/广告营销老板/房产经纪/咨询猎头/大厂人/职场人/团队领导者/副业者/小团队创业者/投资人/大学生/导演/程序员/全职妈妈/外贸跨境/中小学老师/蓝领手艺/新农人/海归）和跨行业兜底 `industry-predicaments.md`，共 48 份（46 个 `perspective-*.md` + `opc-playbook.md` + `industry-predicaments.md`）是**讲师和拆解助手的教案库**，用来在识别到对应客群时内部加读、拆得更准。它们**不是学员直接面对的产品**。学员的直接入口是装好 skill 后在对话框里描述自己的生意，纸版清单（若发）只是可选辅助、不分视角；没装 skill 的 AI 也读不到这些文件。别在面向学员的物料里引用它们。
 
 ---
 
