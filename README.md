@@ -86,7 +86,9 @@ daofashuqi-shi/
 │   ├── industry-predicaments.md            行业困局+大众困局综合兜底（catch-all）
 │   ├── faq.md                              用户常见问题（怎么用/靠不靠谱/和 SWOT 区别/与 BIC 分工/毒舌但暖/七日之约）
 │   ├── scoring.md / experiments.md / report-template.md / teaching-notes.md
-├── assets/self-check-sheet.md   可选无打分自问清单
+├── assets/
+│   ├── self-check-sheet.md      可选无打分自问清单
+│   └── awei-wechat-qr.jpg       作者微信二维码（联系方式）
 ├── evals/trigger-eval.md        触发测试用例（单 skill + 竞争路由盲测）
 ├── evals/output-eval.md         输出质量评估集（10 条硬指标：顺序锁死/禁术语/必给总判定/破局带判定/不编数据/一次一个矛盾/反迎合/去AI味词/禁AI味句式/动作三件套）
 └── samples/                     十类典型客群的实测样例（正例 + 边界：倾诉/知识问答/多生意/超范围转诊/大厂人/副业者）
@@ -101,6 +103,14 @@ daofashuqi-shi/
 ## 框架出处
 
 本 skill 的「道法术器势」五层商业诊断框架，由姑苏阿伟在 2026 年 9 月 13 日长三角数字游民大会 OPC 分会场《OPC 生存指南——商业模式大于一切》演讲中开源，原为帮助零基础老板 / 个体户 / 副业者看清自己生意的轻量自检工具。
+
+## 联系我
+
+用的时候卡住了、想聊你自己的情况、或者想约苏州企业 AI 培训，扫码加我（姑苏阿伟）：
+
+<img src="./assets/awei-wechat-qr.jpg" alt="姑苏阿伟 微信二维码" width="240">
+
+加上了直接说事就行，不用客套。
 
 ## 许可
 
