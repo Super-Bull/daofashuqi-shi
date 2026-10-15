@@ -49,17 +49,17 @@
 
 | 层 | 大白话问题 | 塌了会怎样 |
 |---|---|---|
-| 道 | 你图个啥（本心） | 方向错了，后面全白干 |
-| 法 | 怎么稳赚钱（商业逻辑） | 赚一次是运气，不是生意 |
-| 术 | 怎么找客户、怎么成交 | 永远在准备，从不开始 |
-| 器 | 靠啥干活（用什么） | 人一走，资产归零 |
-| 势 | 现在是不是时候（势够吗） | 风口一来，大部队进场你就没了 |
+| 道 | 你图什么？（你的本心·初心） | 方向错了，后面全白干 |
+| 法 | 怎么做到？怎么赚钱？（商业逻辑） | 赚一次是运气，不是生意 |
+| 术 | 怎么获客？ | 永远在准备，从不开始 |
+| 器 | 用什么工具？（工具） | 人一走，资产归零 |
+| 势 | 现在是不是时候？（趋势·天时地利人和） | 风口一来，大部队进场你就没了 |
 
 五层是上下关系，不是并列。分析顺序永远 道 → 法 → 术 → 器 → 势；「势」是独立维度，不接在「器」之后。
 
 ## 全栈自测增强模块（横向补全）
 
-纵向五层 + 52 份人群弹药解决"拆得透"。下面九个模块解决"连得起来、测得准、跟得上、有人味儿"——补全全栈自测的短板：
+纵向五层 + 52 份人群弹药解决"拆得透"。下面十个模块解决"连得起来、测得准、跟得上、有人味儿"——补全全栈自测的短板：
 
 - 层间联动 / 拖累诊断 → `references/layer-linkage.md`（哪层在拖死哪层，破局只打源头）
 - 阶段论 → `references/stage-model.md`（0→1 / 1→10 / 10→100，先判阶段再定破局聚焦点）
@@ -69,7 +69,8 @@
 - 复盘闭环 → `references/review-loop.md`（测完 7 天 / 30 天怎么跟踪）
 - AI 成败案例库（按道法术器势归类）→ `references/ai-cases.md`（真实 AI 翻车 = 五层里某层塌了，给学员对照）
 - **语言纪律** → `references/tone-language.md`（AI 味禁用词表 / 敷衍词表 / 反迎合纪律 / 毒舌但暖的过来人人格，每次回复必过）
-- **情绪陪伴** → `references/emotional-companion.md`（接住→命名→转身三步法 / 温度边界 / 七日之约回访钩子 / 心理危机转介红线）
+- **情绪陪伴** → `references/emotional-companion.md`（接住→命名→转身三步法 / 温度边界 / 七日之约回访钩子 / 心理危机转介红线 / 迷茫 vs 危机判别）
+- **非生意场景五层映射** → `references/scene-mapping.md`（职场 / 学业 / 家庭场景的五层问法迁移 + 场景雷区 + 判定迁移）
 
 ## 目录结构
 
@@ -78,16 +79,16 @@ daofashuqi-shi/
 ├── SKILL.md                    主脑：框架 + 流程 + 12 条铁律 + 输出格式
 ├── references/
 │   ├── layer-dao/fa/shu/qi/shi.md        五层深挖
-│   ├── layer-linkage / stage-model / verdict / business-models / red-flags / review-loop / ai-cases.md   全栈增强模块（7 个）
+│   ├── layer-linkage / stage-model / verdict / business-models / red-flags / review-loop / ai-cases / scene-mapping.md   全栈增强模块（8 个）
 │   ├── tone-language / emotional-companion.md     人格层：语言纪律 + 情绪陪伴（常驻）
 │   ├── opc-playbook.md                     OPC 专项弹药
-│   ├── perspective-*.md                    50 份人群视角弹药（企业内AI/门店/代工/加盟 + 27类高净值/创作者/文旅/老板型人群 + 制造业观望型 + 大厂人/职场人/团队领导者/副业者/小团队创业者 + 投资人/大学生/导演/程序员/全职妈妈/外贸跨境/中小学老师/蓝领手艺/新农人/海归 + 心理咨询师/退役运动员/MCN达人经纪/跨境电商）
+│   ├── perspective-*.md                    50 份人群视角弹药（企业内AI/门店/代工/加盟 + 27类高净值/创作者/文旅/老板型人群（含传统制造业观望型） + 大厂人/职场人/团队领导者/副业者/小团队创业者 + 投资人/大学生/导演/程序员/全职妈妈/外贸跨境/中小学老师/蓝领手艺/新农人/海归 + 心理咨询师/退役运动员/MCN达人经纪/跨境电商）
 │   ├── industry-predicaments.md            行业困局+大众困局综合兜底（catch-all）
 │   ├── faq.md                              用户常见问题（怎么用/靠不靠谱/和 SWOT 区别/与 BIC 分工/毒舌但暖/七日之约）
-│   ├── scoring / experiments / report-template / teaching-notes
+│   ├── scoring.md / experiments.md / report-template.md / teaching-notes.md
 ├── assets/self-check-sheet.md   可选无打分自问清单
 ├── evals/trigger-eval.md        触发测试用例（单 skill + 竞争路由盲测）
-├── evals/output-eval.md         输出质量评估集（8 条硬指标：顺序锁死/禁术语/必给总判定/破局带判定/不编数据/一次一个矛盾/反迎合/去AI味）
+├── evals/output-eval.md         输出质量评估集（10 条硬指标：顺序锁死/禁术语/必给总判定/破局带判定/不编数据/一次一个矛盾/反迎合/去AI味词/禁AI味句式/动作三件套）
 └── samples/                     十类典型客群的实测样例（正例 + 边界：倾诉/知识问答/多生意/超范围转诊/大厂人/副业者）
 ```
 
